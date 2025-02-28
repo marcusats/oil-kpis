@@ -1,0 +1,177 @@
+{
+    "Region": {
+        "category": "General",
+        "description": "Geographical area where the well is located.",
+        "alternative": ["Región", "Area", "Zona"]
+    },
+    "Lease": {
+        "category": "General",
+        "description": "Lease agreement between the government and the oil company for exploration and production rights.",
+        "alternative": ["Activo", "Oil Lease", "Contrato de Arrendamiento", "Licencia de Explotación"]
+    },
+    "Field": {
+        "category": "General",
+        "description": "Name of the oil or gas field.",
+        "alternative": ["Campo", "Oil Field", "Gas Field", "Yacimiento"]
+    },
+    "Well ID": {
+        "category": "General",
+        "description": "Unique identifier for the well.",
+        "alternative": ["Pozo", "Well", "ID Pozo", "Nombre del Pozo"]
+    },
+    "Latitude": {
+        "category": "General",
+        "description": "Latitude coordinates of the well conductor.",
+        "alternative": ["Latitud Conductor", "Well Latitude", "Latitud"]
+    },
+    "Longitude": {
+        "category": "General",
+        "description": "Longitude coordinates of the well conductor.",
+        "alternative": ["Longitud Conductor", "Well Longitude", "Longitud"]
+    },
+    "Operational Permit": {
+        "category": "General",
+        "description": "Permit or license for the well operation.",
+        "alternative": ["Pera", "Well Permit", "Permiso Operativo"]
+    },
+    "Cost (USD)": {
+        "category": "Financial",
+        "description": "Total cost of the intervention in USD.",
+        "alternative": ["Costo (USD)", "Total Cost", "Coste (USD)"]
+    },
+    "Date": {
+        "category": "General",
+        "description": "Date of the stimulation treatment.",
+        "alternative": ["Fecha", "Intervention Date", "Fecha de Intervención"]
+    },
+    "Well Category": {
+        "category": "General",
+        "description": "Classification of the well (e.g., Development, Production, Injection).",
+        "alternative": ["Categoría del Pozo", "Well Type", "Tipo de Pozo"]
+    },
+    "Intervention Type": {
+        "category": "Operational",
+        "description": "Type of intervention performed (e.g., Acidizing, Hydraulic Fracturing).",
+        "alternative": ["Intervención", "Treatment Type", "Tipo de Tratamiento"]
+    },
+    "Company": {
+        "category": "General",
+        "description": "Name of the company performing the intervention.",
+        "alternative": ["Cía", "Operator", "Empresa", "Compañía"]
+    },
+    "Contract": {
+        "category": "Financial",
+        "description": "Contract associated with the intervention.",
+        "alternative": ["Contrato", "Well Contract", "Contrato de Pozo"]
+    },
+    "Solvent Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of solvent used during stimulation.",
+        "alternative": ["SOLV. [m3]", "Solvent", "Volumen de Solvente"]
+    },
+    "Acid Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of acid used in the stimulation process.",
+        "alternative": ["ACID. [m3]", "Acid Injected", "Ácido Inyectado"]
+    },
+    "Divergent Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of divergent agent used.",
+        "alternative": ["DIVER. [m3]", "Diverter", "Divergente"]
+    },
+    "Inhibitor Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of inhibitor used during treatment.",
+        "alternative": ["INHIB. [m3]", "Inhibitor", "Inhibidor"]
+    },
+    "Neutralizer Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of neutralizing agent used.",
+        "alternative": ["NEUTR. [m3]", "Neutralizer", "Neutralizante"]
+    },
+    "Linear Gel Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of linear gel injected.",
+        "alternative": ["GEL LINEAL. [m3]", "Linear Gel", "Gel Inyectado"]
+    },
+    "Treated Water Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of treated water used in the process.",
+        "alternative": ["AGUA TRATADA. [m3]", "Treated Water", "Agua Filtrada"]
+    },
+    "Brine Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Volume of brine/saltwater used.",
+        "alternative": ["SALMUERA. [m3]", "Brine", "Agua Salada"]
+    },
+    "Water Volume (m3)": {
+        "category": "Chemical Usage",
+        "description": "Total water volume used.",
+        "alternative": ["AGUA. [m3]", "Water", "Volumen de Agua"]
+    },
+    "Liquid Displacement (m3)": {
+        "category": "Operational",
+        "description": "Volume of liquid displacement fluid used.",
+        "alternative": ["DESPLAZAMIENTO LÍQUIDO [m3]", "Liquid Displacement", "Fluido Desplazador"]
+    },
+    "Nitrogen Displacement (m3)": {
+        "category": "Operational",
+        "description": "Volume of nitrogen used for displacement.",
+        "alternative": ["DESPLAZAMIENTO N2 [m3]", "Nitrogen Displacement", "Desplazamiento N2"]
+    },
+    "Total Fluid Volume (m3)": {
+        "category": "Operational",
+        "description": "Total volume of all injected fluids.",
+        "alternative": ["Total [m3]", "Total Volume", "Volumen Total"]
+    },
+    "Producing Formation": {
+        "category": "Geological",
+        "description": "Name of the formation being stimulated.",
+        "alternative": ["Formación Productora", "Reservoir", "Formación de Producción"]
+    },
+    "Qo Before (bpd)": {
+        "category": "Well Performance",
+        "description": "Oil production before the intervention.",
+        "alternative": ["Qo antes [bls]", "Qo Before", "Producción Inicial"]
+    },
+    "Qo After (bpd)": {
+        "category": "Well Performance",
+        "description": "Oil production after the intervention.",
+        "alternative": ["Qo desp [bls]", "Qo After", "Producción Final"]
+    },
+    "Qo Difference (bpd)": {
+        "category": "Well Performance",
+        "description": "Change in oil production due to intervention.",
+        "alternative": ["Δqo [bls]", "Qo Change", "Diferencia Qo"]
+    },
+    "Pwf Before (kg/cm²)": {
+        "category": "Well Performance",
+        "description": "Flowing bottomhole pressure before stimulation.",
+        "alternative": ["Pwf antes [kg/cm²]", "Pwf Before", "Presión de Fondo Fluyente Antes"]
+    },
+    "Pwf After (kg/cm²)": {
+        "category": "Well Performance",
+        "description": "Flowing bottomhole pressure after stimulation.",
+        "alternative": ["Pwf desp [kg/cm²]", "Pwf After", "Presión de Fondo Fluyente Después"]
+    },
+    "Pwf Difference (kg/cm²)": {
+        "category": "Well Performance",
+        "description": "Change in flowing bottomhole pressure after stimulation.",
+        "alternative": ["ΔPwf [kg/cm²]", "Pwf Change", "Diferencia de Pwf"]
+    },
+    "Sensor / Nodal": {
+        "category": "Operational",
+        "description": "Indicates whether a sensor or nodal analysis was used.",
+        "alternative": ["Sensor / Nodal", "Nodal Analysis", "Sensor", "Análisis Nodal"]
+    },
+    "Reaction Time in Bottom (hrs)": {
+        "category": "Operational",
+        "description": "Time the chemical reaction lasted at the bottom of the well.",
+        "alternative": ["Tiempo de Reacción en fondo (hrs)", "Reaction Time", "Tiempo de Contacto"]
+    },
+    "Revenue (USD)": {
+        "category": "Financial",
+        "description": "Total revenue generated after intervention.",
+        "alternative": ["Ingresos (USD)", "Total Revenue", "Ganancia"]
+    }
+}

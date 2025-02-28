@@ -1,0 +1,26 @@
+{
+    "category": "Upstream - Well Stimulation",
+    "subcategory": "Stimulation Chemicals",
+    "kpis": [
+        {
+            "name": "Chemical Efficiency",
+            "description": "Measures how effective stimulation chemicals are in enhancing production.",
+            "unit": "bbl/kg",
+            "formula": "production_increase / chemical_used",
+            "ai_suggestions": {
+                "optimal_range": "0.8 - 1.2",
+                "warning_threshold": "< 0.5"
+            }
+        },
+        {
+            "name": "Cost Per Barrel",
+            "description": "Calculates cost per barrel recovered using stimulation chemicals.",
+            "unit": "$/bbl",
+            "formula": "cost / barrels_recovered",
+            "ai_suggestions": {
+                "optimal_range": "10 - 30",
+                "warning_threshold": "> 50"
+            }
+        }
+    ]
+}
