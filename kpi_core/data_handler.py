@@ -3,10 +3,6 @@ import json
 from rapidfuzz import process, fuzz
 from ai_integration.chatgpt_kpi_assistant import ai_fallback_column_mapping
 
-
-pd.set_option('display.max_columns', None)
-
-
 class DataHandler:
     def __init__(self, source_type, source, mapping_path):
         """
